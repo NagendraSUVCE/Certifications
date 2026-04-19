@@ -1334,3 +1334,79 @@ NOTE: Each correct selection is worth one point.
 - [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
 - [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
 
+## Question 56
+repeat question same as Question 26
+
+## Question 57
+
+Question #: 88
+Topic #: 2
+You have a Microsoft Power BI data model that contains three tables named Orders, Date, and City. There is a one-to-many relationship between Date and
+Orders and between City and Orders.
+The model contains two row-level security (RLS) roles named Role1 and Role2. Role1 contains the following filter.
+City[State Province] = “Kentucky”
+Role2 contains the following filter.
+
+Date[Calendar Year] = 2020 –
+If a user is a member of both Role1 and Role2, what data will they see in a report that uses the model?
+
+A. The user will see data for which the State Province value is Kentucky or where the Calendar Year is 2020.
+B. The user will receive an error and will not be able to see the data in the report.
+C. The user will only see data for which the State Province value is Kentucky.
+D. The user will only see data for which the State Province value is Kentucky and the Calendar Year is 2020.
+
+Selected Answer: A
+
+### Links
+
+- Video 02 - Question 17
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-2/)
+
+## Question 58
+
+repeat question same as Question 27
+
+## Question 59
+
+repeat question same as Question 28
+
+## Question 60
+
+Question #: 115
+Topic #: 2
+You have the Power BI model shown in the following exhibit.
+
+There are four departments in the Departments table.
+You need to ensure that users can see the data of their respective department only.
+What should you do?
+
+A. Create a slicer that filters Departments based on DepartmentID.
+B. Create a row-level security (RLS) role for each department, and then define the membership of the role.
+C. Create a DepartmentID parameter to filter the Departments table.
+D. To the ConfidentialData table, add a calculated measure that uses the CURRENTGROUP DAX function.
+
+Selected Answer: B
+
+## Question 61
+
+Question #: 141
+Topic #: 2
+You import a Power BI dataset that contains the following tables:
+✑ Date
+✑ Product
+✑ Product Inventory
+The Product Inventory table contains 25 million rows. A sample of the data is shown in the following table.
+
+The Product Inventory table relates to the Date table by using the DateKey column. The Product Inventory table relates to the Product table by using the
+ProductKey column.
+You need to reduce the size of the data model without losing information.
+What should you do?
+
+A. Change Summarization for DateKey to Don’t Summarize.
+B. Remove the relationship between Date and Product Inventory
+C. Change the data type of UnitCost to Integer.
+D. Remove MovementDate.
+
+Selected Answer: D
+
