@@ -935,4 +935,402 @@ How should you configure the data connection?
 - C. Set Data Connectivity mode to Import.
 - D. Set Data Connectivity mode to DirectQuery.
 
+this question got repeated in video 02 question 06
 **Selected Answer:** D
+
+
+EP02: PL-300 Exam Preparation Series | Important Topics | Microsoft Power BI Data Analyst | Free PDF
+https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s
+
+
+## Question 41
+
+
+**Question #:** 18
+**Topic #:** 1
+
+You have a project management app that is fully hosted in Microsoft Teams. The app was developed by using Microsoft Power Apps.
+
+You need to create a Power BI report that connects to the project management app.
+
+Which connector should you select?
+
+- A. Microsoft Teams Personal Analytics
+- B. SQL Server database
+- C. Dataverse
+- D. Dataflows
+
+**Selected Answer:** C
+
+### Links
+
+- Video 01 - Question 01
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+## Question 42
+
+
+**Question #:** 29
+**Topic #:** 1
+
+For the sales department at your company, you publish a Power BI report that imports data from a Microsoft Excel file located in a Microsoft SharePoint folder.
+
+The data model contains several measures.
+
+You need to create a Power BI report from the existing data. The solution must minimize development effort.
+
+Which type of data source should you use?
+
+- A. Power BI dataset
+- B. a SharePoint folder
+- C. Power BI dataflows
+- D. an Excel workbook
+
+**Selected Answer:** A
+
+### Links
+
+- Video 02 - Question 02
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+## Question 43
+
+
+**Question #:** 62
+**Topic #:** 1
+
+You have a Microsoft SharePoint Online site that contains several document libraries.
+
+One of the document libraries contains manufacturing reports saved as Microsoft Excel files. All the manufacturing reports have the same data structure.
+
+You need to use Power BI Desktop to load only the manufacturing reports to a table for analysis.
+
+What should you do?
+
+- A. Get data from a SharePoint folder and enter the site URL Select Transform, then filter by the folder path to the manufacturing reports library.
+- B. Get data from a SharePoint list and enter the site URL. Select Combine & Transform, then filter by the folder path to the manufacturing reports library.
+- C. Get data from a SharePoint folder, enter the site URL, and then select Combine & Load.
+- D. Get data from a SharePoint list, enter the site URL, and then select Combine & Load.
+
+**Selected Answer:** A
+
+### Links
+
+- Video 02 - Question 03
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+## Question 44
+
+
+**Question #:** 68
+**Topic #:** 1
+
+You have a CSV file that contains user complaints. The file contains a column named Logged. Logged contains the date and time each complaint occurred. The data in Logged is in the following format: 2018-12-31 at 08:59.
+
+You need to be able to analyze the complaints by the logged date and use a built-in date hierarchy.
+
+What should you do?
+
+- A. Apply a transformation to extract the last 11 characters of the Logged column and set the data type of the new column to Date.
+- B. Change the data type of the Logged column to Date.
+- C. Split the Logged column by using at as the delimiter.
+- D. Apply a transformation to extract the first 11 characters of the Logged column.
+
+**Selected Answer:** C
+
+### Links
+
+- Video 02 - Question 04
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+## Question 45
+
+
+**Question #:** 73
+**Topic #:** 1
+
+You have a Microsoft Excel file in a Microsoft OneDrive folder.
+
+The file must be imported to a Power BI dataset.
+
+You need to ensure that the dataset can be refreshed in powerbi.com.
+
+Which two connectors can you use to connect to the file? Each correct answer presents a complete solution.
+
+NOTE: Each correct selection is worth one point.
+
+- A. Excel Workbook
+- B. Text/CSV
+- C. Folder
+- D. SharePoint folder
+- E. Web
+
+**Selected Answer:** DE
+
+### Links
+
+- Video 02 - Question 05
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-2/)
+
+## Question 46
+
+Repeat question #Question 40
+
+## Question 47
+
+
+**Question #:** 92
+**Topic #:** 1
+
+A business intelligence (BI) developer creates a dataflow in Power BI that uses DirectQuery to access tables from an on-premises Microsoft SQL server. The
+Enhanced Dataflows Compute Engine is turned on for the dataflow.
+
+You need to use the dataflow in a report. The solution must meet the following requirements:
+
+✑ Minimize online processing operations.
+✑ Minimize calculation times and render times for visuals.
+✑ Include data from the current year, up to and including the previous day.
+
+What should you do?
+
+- A. Create a dataflows connection that has DirectQuery mode selected.
+- B. Create a dataflows connection that has DirectQuery mode selected and configure a gateway connection for the dataset.
+- C. Create a dataflows connection that has Import mode selected and schedule a daily refresh.
+- D. Create a dataflows connection that has Import mode selected and create a Microsoft Power Automate solution to refresh the data hourly.
+
+**Selected Answer:** C
+
+### Links
+
+- Video 02 - Question 07
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-2/)
+
+## Question 48
+
+
+**Question #:** 100
+**Topic #:** 1
+
+You attempt to connect Power BI Desktop to a Cassandra database.
+
+From the Get Data connector list, you discover that there is no specific connector for the Cassandra database.
+
+You need to select an alternate data connector that will connect to the database.
+
+Which type of connector should you choose?
+
+- A. Microsoft SQL Server database
+- B. ODBC
+- C. OLE DB
+- D. OData
+
+**Selected Answer:** B
+
+### Links
+
+- Video 02 - Question 08
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-2/)
+
+
+## Question 49
+
+
+**Question #:** 117
+**Topic #:** 1
+
+You are creating a query to be used as a Country dimension in a star schema.
+
+A snapshot of the source data is shown in the following table.
+
+You need to create the dimension. The dimension must contain a list of unique countries.
+
+Which two actions should you perform? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.
+
+- A. Delete the Country column.
+- B. Remove duplicates from the table.
+- C. Remove duplicates from the City column.
+- D. Delete the City column.
+- E. Remove duplicates from the Country column.
+
+**Selected Answer:** DE
+
+### Links
+
+- Video 02 - Question 09
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-2/)
+
+## Question 50
+
+
+**Question #:** 10
+**Topic #:** 2
+
+You are creating a report in Power BI Desktop.
+
+You load a data extract that includes a free text field named coll.
+
+You need to analyze the frequency distribution of the string lengths in col1. The solution must not affect the size of the model.
+
+What should you do?
+
+- A. In the report, add a DAX calculated column that calculates the length of col1
+- B. In the report, add a DAX function that calculates the average length of col1
+- C. From Power Query Editor, add a column that calculates the length of col1
+- D. From Power Query Editor, change the distribution for the Column profile to group by length for col1
+
+**Selected Answer:** D
+### Links
+
+- Video 02 - Question 10
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+## Question 51
+
+
+**Question #:** 22
+**Topic #:** 2
+
+You have a collection of reports for the HR department of your company. The datasets use row-level security (RLS). The company has multiple sales regions.
+
+Each sales region has an HR manager.
+
+You need to ensure that the HR managers can interact with the data from their region only. The HR managers must be prevented from changing the layout of the reports.
+
+How should you provision access to the reports for the HR managers?
+
+- A. Publish the reports in an app and grant the HR managers access permission.
+- B. Create a new workspace, copy the datasets and reports, and add the HR managers as members of the workspace.
+- C. Publish the reports to a different workspace other than the one hosting the datasets.
+- D. Add the HR managers as members of the existing workspace that hosts the reports and the datasets.
+
+**Selected Answer:** A
+### Links
+
+- Video 02 - Question 11
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+## Question 52
+
+
+**Question #:** 41
+**Topic #:** 2
+
+You have a Power BI query named Sales that imports the columns shown in the following table.
+
+Users only use the date part of the Sales_Date field. Only rows with a Status of Finished are used in analysis.
+
+You need to reduce the load times of the query without affecting the analysis.
+
+Which two actions achieve this goal? Each correct answer presents a complete solution.
+
+NOTE: Each correct selection is worth one point.
+
+- A. Remove the rows in which Sales[Status] has a value of Canceled.
+- B. Remove Sales[Sales_Date].
+- C. Change the data type of Sale[Delivery_Time] to Integer.
+- D. Split Sales[Sale_Date] into separate date and time columns.
+- E. Remove Sales[Canceled Date].
+
+**Selected Answer:** AE
+### Links
+
+- Video 02 - Question 12
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+
+## Question 53
+
+
+**Question #:** 47
+**Topic #:** 2
+
+You build a report to analyze customer transactions from a database that contains the tables shown in the following table.
+
+You import the tables.
+
+Which relationship should you use to link the tables?
+
+- A. one-to-many from Transaction to Customer
+- B. one-to-one between Customer and Transaction
+- C. many-to-many between Customer and Transaction
+- D. one-to-many from Customer to Transaction
+
+**Selected Answer:** D
+### Links
+
+- Video 02 - Question 13
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+## Question 54
+
+
+**Question #:** 52
+**Topic #:** 2
+
+You have a custom connector that returns ID, From, To, Subject, Body, and Has Attachments for every email sent during the past year. More than 10 million records are returned.
+
+You build a report analyzing the internal networks of employees based on whom they send emails to.
+
+You need to prevent report recipients from reading the analyzed emails. The solution must minimize the model size.
+
+What should you do?
+
+- A. From Model view, set the Subject and Body columns to Hidden.
+- B. Remove the Subject and Body columns during the import.
+- C. Implement row-level security (RLS) so that the report recipients can only see results based on the emails they sent.
+
+**Selected Answer:** B
+
+### Links
+
+- Video 02 - Question 14
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
+## Question 55
+
+uestion #: 60
+
+Topic #: 2
+
+You have the Power BI model shown in the following exhibit.
+
+A manager can represent only a single country.
+
+You need to use row-level security (RLS) to meet the following requirements:
+
+✑ The managers must only see the data of their respective country.
+✑ The number of RLS roles must be minimized.
+
+Which two actions should you perform? Each correct answer presents a complete solution.
+
+NOTE: Each correct selection is worth one point.
+
+- A. Create a single role that filters Country[Manager_Email] by using the USERNAME DAX function.
+- B. Create a single role that filters Country[Manager_Email] by using the USEROBJECTID DAX function.
+- C. For the relationship between Purchase Detail and Purchase, select Apply security filter in both directions.
+- D. Create one role for each country.
+- E. For the relationship between Purchase and Purchase Detail, change the Cross filter direction to Single.
+
+**Selected Answer:** AC
+
+### Links
+
+- Video 02 - Question 15
+- [YouTube](https://www.youtube.com/watch?v=sxegmIVF4Dw&t=2s)
+- [AWSLagi Course](https://awslagi.com/course/pl-300/lessons/pl-300-microsoft-power-bi-data-analyst-part-1/)
+
